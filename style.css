@@ -1,0 +1,74 @@
+  :root {
+    --soc-red: #e63946;
+    --soc-blue: #1d3557;
+    --soc-light: #f1faee;
+    --soc-yellow: #ffc107;
+    --soc-green: #28a745;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  .card-header {
+    font-weight: 600;
+  }
+
+  .severity-high {
+    background-color: #ffdddd !important;
+  }
+
+  .severity-medium {
+    background-color: #fff3cd !important;
+  }
+
+  .severity-low {
+    background-color: #d4edda !important;
+  }
+
+  .severity-critical {
+    background-color: #f8d7da !important;
+  }
+
+  .status-open {
+    background-color: #ffeeba !important;
+  }
+
+  .status-closed {
+    background-color: #c3e6cb !important;
+  }
+
+  .chart-container {
+    position: relative;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  .upload-area {
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .upload-area:hover {
+    border-color: var(--soc-blue);
+    background-color: var(--soc-light);
+  }
+
+  .entity-selector {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+
+  .field-selector {
+    max-height: 200px;
+    overflow-y: auto;
+  }
